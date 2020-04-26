@@ -121,6 +121,7 @@ html, body {
 		h1{
 			.section-font();
 			.display-flex();
+			font-size: 2rem;
 
 		}}	
 			p{
@@ -138,9 +139,31 @@ html, body {
 	.skills-section  h2{
 		.section-font();
 		.display-flex();
-		padding: 2rem;
-		
+		}
+// why can't i style .skills-section using nesting?
+			.skills-section ul{
+				color: @fontColor;
+				font-family: @font;
+				.display-flex();
+				flex-direction: column;
+				padding: 1rem;
+
+				li{padding: 1rem;}
+				
+					}
+	footer{
+		.section-font();  
+		background-color: @backgroundColor;
+		height: 6rem;
+		padding: 3rem;
+		margin: 6rem;
+		border: 1px solid lightgoldenrodyellow;
+		.display-flex();
+		// ask question re: why won't margin increase at bottom of footer?
+
 	}
+		
+	
 
 
 

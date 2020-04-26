@@ -173,6 +173,7 @@ section h1 {
   color: lightgoldenrodyellow;
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 }
 p {
   font-family: Verdana;
@@ -188,5 +189,28 @@ p {
   color: lightgoldenrodyellow;
   display: flex;
   justify-content: center;
-  padding: 2rem;
+}
+.skills-section ul {
+  color: aquamarine;
+  font-family: Verdana;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.skills-section ul li {
+  padding: 1rem;
+}
+footer {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 1rem;
+  color: lightgoldenrodyellow;
+  background-color: lightblue;
+  height: 6rem;
+  padding: 3rem;
+  margin: 6rem;
+  border: 1px solid lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
 }
